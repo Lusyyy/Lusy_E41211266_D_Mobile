@@ -27,7 +27,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginLeft="156dp"
         android:layout_marginTop="172dp"
-        android:text="@string/visit"
+        android:text="visit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
