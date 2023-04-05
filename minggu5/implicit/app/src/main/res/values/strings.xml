@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">minggu5_2</string>
-    <string name="who_are_you">who_are_you</string>
-    <string name="i_am">i_am</string>
-    <string name="this_is_second_activity">ithis_is_second_activity</string>
+    <string name="app_name">minggu4</string>
+    <string name="visit">visit</string>
 </resources>
