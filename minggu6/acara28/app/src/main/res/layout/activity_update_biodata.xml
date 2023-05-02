@@ -104,20 +104,20 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/editText5"
         android:layout_alignParentBottom="true"
-        style="?android:attr/borderlessButtonStyle"
+
         android:text="Update" />
-<!--        android:drawableLeft="@drawable/ic_done"-->
+
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kembali"
-        style="?android:attr/borderlessButtonStyle"
+
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/editText5"
         android:layout_alignEnd="@+id/editText5"
         />
-<!--        android:drawableLeft="@drawable/ic_arrow"-->
+
 
 </RelativeLayout>

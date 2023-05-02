@@ -104,7 +104,7 @@
         android:layout_below="@+id/TextView05"
         android:layout_marginTop="34dp"
         android:text="Kembali"
-        style="?android:attr/borderlessButtonStyle"/>
+       />
 <!--        android:drawableLeft="@drawable/ic_arrow"/>-->
 
 </RelativeLayout>
