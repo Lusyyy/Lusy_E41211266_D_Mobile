@@ -41,7 +41,8 @@ public class register extends AppCompatActivity {
                     dataHelper.addUser(username, password);
 
                     Toast.makeText(register.this, "Registration successful", Toast.LENGTH_SHORT).show();
-                    finish();
+                    Intent intent = new Intent(register.this, login.class);
+                    startActivity(intent);
                 }
             }
         });

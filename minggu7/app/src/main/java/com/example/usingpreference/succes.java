@@ -8,9 +8,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class succes extends AppCompatActivity {
 Button back;
+TextView tete;
 SessionManager sessionManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +26,9 @@ SessionManager sessionManager;
             // Jika belum login, pindahkan ke halaman login
            movetoLogin();
         }
+
+        tete = findViewById(R.id.textView6);
+        tete.setText("Selamat "+ sessionManager.getUserDetail().get(SessionManager.USERNAME) + "  berhasil login alhamdulillah");
         back = findViewById(R.id.logout);
  back.setOnClickListener(new View.OnClickListener() {
      @Override
